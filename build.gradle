@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('com.fasterxml.jackson.core:jackson-databind:2.+')
+
+    testImplementation 'junit:junit:4.+'
+    testImplementation 'io.rest-assured:rest-assured:4.+'
+}
